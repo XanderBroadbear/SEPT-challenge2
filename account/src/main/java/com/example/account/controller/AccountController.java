@@ -1,12 +1,17 @@
 package com.example.account.controller;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class AccountController {
     @RequestMapping("/")
     public String display(){
-        return "index";
+        return "Heyo";
+    }
+
+    @RequestMapping("/goodbye")
+    public String bye(){
+        return "Goodbye from Spring Boot";
     }
 }
