@@ -40,9 +40,9 @@ public class AccountController {
     }
 
     @PostMapping("/accounts")
-    public Account addaccount(@RequestBody Account theAccount) {
+    public Account addAccount(@RequestBody Account theAccount) {
 
-        theAccount.setId(0);
+        //theAccount.setId(0);
 
         accountService.save(theAccount);
 
@@ -50,7 +50,7 @@ public class AccountController {
     }
 
     @PutMapping("/accounts")
-    public Account updateaccount(@RequestBody Account theAccount) {
+    public Account updateAccount(@RequestBody Account theAccount) {
 
         accountService.save(theAccount);
 
@@ -58,7 +58,7 @@ public class AccountController {
     }
 
     @DeleteMapping("/accounts/{accountId}")
-    public String deleteaccount(@PathVariable int accountId) {
+    public String deleteAccount(@PathVariable int accountId) {
 
         Account tempAccount = accountService.findById(accountId);
 

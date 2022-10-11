@@ -64,7 +64,7 @@ public class AccountDaoImpl implements AccountDao {
         Session currentSession = entityManager.unwrap(Session.class);
 
         // save employee
-        currentSession.saveOrUpdate(theAccount);
+        currentSession.save(theAccount);
     }
 
 

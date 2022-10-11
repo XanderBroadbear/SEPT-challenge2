@@ -29,7 +29,7 @@ public class Account {
     @Column(nullable = false)
     private String accountName;
     @Column(nullable = false)
-    private double balance;
+    private Double balance;
     @Column(nullable = false)
     private String date;
     public int getId() {
@@ -49,28 +49,28 @@ public class Account {
     public int getAccountNumber() {
         return accountNumber;
     }
-    public void setAccountNumber() {
+    public void setAccountNumber(int accountNumber) {
         this.accountNumber = accountNumber;
     }
 
     public String getAccountName() {
         return accountName;
     }
-    public void setAccountName(String accountType) {
+    public void setAccountName(String accountName) {
         this.accountName = accountName;
     }
 
-    public double getBalance() {
+    public Double getBalance() {
         return balance;
     }
-    public void setBalance() {
+    public void setBalance(Double balance) {
         this.balance = balance;
     }
 
     public String getDate() {
         return date;
     }
-    public void setDate(String accountType) {
+    public void setDate(String date) {
         this.date = date;
     }
 
