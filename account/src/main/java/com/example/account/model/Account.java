@@ -18,12 +18,13 @@ public class Account {
 
 
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+    @Column(nullable = false)
     private int id;
     @Column(nullable = false)
     private String accountType;
-    @Column(nullable = false)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int accountNumber;
     @Column(nullable = false)
     private String accountName;
