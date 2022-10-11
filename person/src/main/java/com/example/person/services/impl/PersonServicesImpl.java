@@ -1,13 +1,13 @@
-package com.example.persona.services.impl;
+package com.example.person.services.impl;
 import java.util.List;
 
-import com.example.persona.services.PersonServices;
+import com.example.person.services.PersonServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.persona.model.Person;
-import com.example.persona.dao.PersonDao;
+import com.example.person.model.Person;
+import com.example.person.dao.PersonDao;
 
 @Service
 public class PersonServicesImpl implements PersonServices {

@@ -1,6 +1,6 @@
-package com.example.persona.controller;
-import com.example.persona.model.Person;
-import com.example.persona.services.PersonServices;
+package com.example.person.controller;
+import com.example.person.model.Person;
+import com.example.person.services.PersonServices;
 
 import java.util.List;
 

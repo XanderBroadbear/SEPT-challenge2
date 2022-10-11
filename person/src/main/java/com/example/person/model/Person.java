@@ -1,4 +1,4 @@
-package com.example.persona.model;
+package com.example.person.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,8 +1,8 @@
-package com.example.persona.dao;
+package com.example.person.dao;
 
 import java.util.List;
 
-import com.example.persona.model.Person;
+import com.example.person.model.Person;
 public interface PersonDao {
 
     public List findAll();

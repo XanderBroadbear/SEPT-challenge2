@@ -1,8 +1,8 @@
-package com.example.persona.services;
+package com.example.person.services;
 
 import java.util.List;
 
-import com.example.persona.model.Person;
+import com.example.person.model.Person;
 public interface PersonServices {
 
     public List<Person> findAll();

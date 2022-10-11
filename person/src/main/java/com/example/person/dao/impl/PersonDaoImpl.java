@@ -1,16 +1,16 @@
-package com.example.persona.dao.impl;
+package com.example.person.dao.impl;
 
 import java.util.List;
 
 import javax.persistence.EntityManager;
 
-import com.example.persona.dao.PersonDao;
+import com.example.person.dao.PersonDao;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.example.persona.model.Person;
+import com.example.person.model.Person;
 @Repository
 public class PersonDaoImpl implements PersonDao {
 
